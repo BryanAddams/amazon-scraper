@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Amazon Scraper</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Page header -->
+  <header>
+    <h1>🛒 Amazon Scraper</h1>
+  </header>
+
+  <!-- Search input and button -->
+  <section class="search-bar">
+    <input type="text" id="keyword" placeholder="Search Amazon products..." />
+    <button id="search">🔍 Search</button>
+  </section>
+
+  <!-- Language tip for international compatibility -->
+  <small class="tip">
+    Tip: Use English keywords like <em>"books"</em>, <em>"headphones"</em>, or <em>"laptop"</em>
+  </small>
+
+  <!-- Container for displaying search results -->
+  <section id="results" class="results"></section>
+
+  <!-- Link to main JavaScript logic -->
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
